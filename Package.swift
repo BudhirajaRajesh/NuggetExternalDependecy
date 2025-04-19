@@ -10,7 +10,6 @@ let package = Package(
     products: [
         .library(
             name: "NuggetExternalDependency",
-            type: .dynamic,
             targets: ["NuggetExternalDependency"]),
     ],
     dependencies: [
