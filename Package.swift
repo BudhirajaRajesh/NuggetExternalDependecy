@@ -17,7 +17,7 @@ let package = Package(
         .package(url: "https://github.com/patchthecode/JTAppleCalendar", .exact("8.0.5")),
         .package(url: "https://github.com/airbnb/lottie-spm.git", .exact("4.5.1")),
         .package(url: "https://github.com/kean/Nuke.git", .exact("12.8.0")),
-        .package(url: "https://github.com/BudhirajaRajesh/ZMarkupParser.git", .branch("temp")),
+        .package(path: "../ZMarkupParser"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.4.4")),
     ],
     targets: [
