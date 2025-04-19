@@ -1,4 +1,5 @@
 // swift-tools-version:5.3
+
 import PackageDescription
 
 let package = Package(
@@ -9,13 +10,14 @@ let package = Package(
     products: [
         .library(
             name: "NuggetExternalDependency",
+            type: .dynamic,
             targets: ["NuggetExternalDependency"]),
     ],
     dependencies: [
         .package(url: "https://github.com/patchthecode/JTAppleCalendar", .exact("8.0.5")),
         .package(url: "https://github.com/airbnb/lottie-spm.git", .exact("4.5.1")),
         .package(url: "https://github.com/kean/Nuke.git", .exact("12.8.0")),
-        .package(url: "https://github.com/ZhgChgLi/ZMarkupParser.git", .exact("1.10.0")),
+        .package(url: "https://github.com/BudhirajaRajesh/ZNSTextAttachment.git", .branch("main")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.4.4")),
     ],
     targets: [
