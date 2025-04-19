@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "JTAppleCalendar",
+        "repositoryURL": "https://github.com/patchthecode/JTAppleCalendar",
+        "state": {
+          "branch": null,
+          "revision": "718f0ab68ba0fcd2bc134f6e9d30edc1b9b038e1",
+          "version": "8.0.5"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-spm.git",
+        "state": {
+          "branch": null,
+          "revision": "8c6edf4f0fa84fe9c058600a4295eb0c01661c69",
+          "version": "4.5.1"
+        }
+      },
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke.git",
+        "state": {
+          "branch": null,
+          "revision": "0ead44350d2737db384908569c012fe67c421e4d",
+          "version": "12.8.0"
+        }
+      },
+      {
+        "package": "ZMarkupParser",
+        "repositoryURL": "https://github.com/BudhirajaRajesh/ZMarkupParser.git",
+        "state": {
+          "branch": "release",
+          "revision": "0248adf53c09fb08872bba4182bb833842bfbc79",
+          "version": null
+        }
+      },
+      {
+        "package": "ZNSTextAttachment",
+        "repositoryURL": "https://github.com/BudhirajaRajesh/ZNSTextAttachment",
+        "state": {
+          "branch": "release",
+          "revision": "5cbc12dfb3603ff613de51040c42c5a5adfc16dc",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
