@@ -4,7 +4,7 @@ A Swift Package Manager package containing external dependencies for the Nugget 
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 14.0+
 - macOS 10.15+
 - Swift 5.0+
 
@@ -16,7 +16,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-org/NuggetExternalDependency.git", .exact("1.0.0"))
+    .package(url: "https://github.com/BudhirajaRajesh/NuggetExternalDependency.git", .exact("1.0.0"))
 ]
 ```
 
