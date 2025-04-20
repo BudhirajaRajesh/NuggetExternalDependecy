@@ -25,21 +25,6 @@ Or add it to your Xcode project:
 2. Enter the package URL
 3. Select your target and click "Add Package"
 
-## Usage
-
-```swift
-import NuggetExternalDependency
-
-let dependency = NuggetExternalDependency()
-```
-
-## Development
-
-1. Clone the repository
-2. Open the package in Xcode
-3. Make your changes
-4. Run tests: `swift test`
-
 ## License
 
 ISC 
