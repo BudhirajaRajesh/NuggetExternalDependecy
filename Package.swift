@@ -26,6 +26,7 @@ let package = Package(
                 .product(name: "JTAppleCalendar", package: "JTAppleCalendar"),
                 .product(name: "Nuke", package: "Nuke"),
                 .product(name: "NukeExtensions", package: "Nuke"),
+                .product(name: "Lottie", package: "lottie-spm"),
                 .product(name: "ZMarkupParser", package: "ZMarkupParser"),
                 .product(name: "Alamofire", package: "Alamofire")
             ]),
