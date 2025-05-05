@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {
           "branch": null,
-          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
-          "version": "5.4.4"
+          "revision": "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+          "version": "5.10.2"
         }
       },
       {
@@ -17,15 +17,6 @@
           "branch": null,
           "revision": "718f0ab68ba0fcd2bc134f6e9d30edc1b9b038e1",
           "version": "8.0.5"
-        }
-      },
-      {
-        "package": "Lottie",
-        "repositoryURL": "https://github.com/airbnb/lottie-spm.git",
-        "state": {
-          "branch": null,
-          "revision": "8c6edf4f0fa84fe9c058600a4295eb0c01661c69",
-          "version": "4.5.1"
         }
       },
       {

@@ -14,10 +14,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/patchthecode/JTAppleCalendar", .exact("8.0.5")),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", .upToNextMajor(from: "4.5.1")),
         .package(url: "https://github.com/kean/Nuke.git", .upToNextMajor(from: "12.8.0")),
         .package(url: "https://github.com/BudhirajaRajesh/ZMarkupParser.git", .exact("2.0.0")),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.4")),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.10.2")),
     ],
     targets: [
         .target(
@@ -26,9 +25,8 @@ let package = Package(
                 .product(name: "JTAppleCalendar", package: "JTAppleCalendar"),
                 .product(name: "Nuke", package: "Nuke"),
                 .product(name: "NukeExtensions", package: "Nuke"),
-                .product(name: "Lottie", package: "lottie-spm"),
                 .product(name: "ZMarkupParser", package: "ZMarkupParser"),
-                .product(name: "Alamofire", package: "Alamofire")
+                .product(name: "AlamofireDynamic", package: "Alamofire")
             ]),
         .testTarget(
             name: "NuggetExternalDependencyTests",
