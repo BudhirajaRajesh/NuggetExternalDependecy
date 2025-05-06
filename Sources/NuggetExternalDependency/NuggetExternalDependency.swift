@@ -1,6 +1,5 @@
 import Foundation
 import JTAppleCalendar
-import Lottie
 import Nuke
 import NukeExtensions
 import ZMarkupParser
