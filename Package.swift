@@ -14,7 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/patchthecode/JTAppleCalendar", .exact("8.0.5")),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", .exact("4.5.1")),
         .package(url: "https://github.com/kean/Nuke.git", .exact("12.8.0")),
         .package(url: "https://github.com/BudhirajaRajesh/ZMarkupParser.git", .exact("2.0.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .exact("5.4.4")),
@@ -24,7 +23,6 @@ let package = Package(
             name: "NuggetExternalDependency",
             dependencies: [
                 .product(name: "JTAppleCalendar", package: "JTAppleCalendar"),
-                .product(name: "Lottie", package: "lottie-spm"),
                 .product(name: "Nuke", package: "Nuke"),
                 .product(name: "NukeExtensions", package: "Nuke"),
                 .product(name: "ZMarkupParser", package: "ZMarkupParser"),
